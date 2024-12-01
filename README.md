@@ -8,11 +8,11 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 --------
-[create-project]npm create vite@latest book-vibe -- --template react.
+[create-project]# npm create vite@latest book-vibe -- --template react.
 
-[change-directory]cd book-vibe.
+[change-directory]# cd book-vibe.
 
-[react-router]npm install react-router-dom.
+[react-router]# npm install react-router-dom.
 
 --# : npm install localforage match-sorter sort-by.
 
