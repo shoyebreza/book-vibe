@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Root from './components/Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
 
 const router = createBrowserRouter([
