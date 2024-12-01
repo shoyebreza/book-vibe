@@ -7,9 +7,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-
-npm create vite@latest book-vibe -- --template react
-cd book-vibe
-npm install react-router-dom
-npm install localforage match-sorter sort-by
-npm run dev
+--------
+[create-project]npm create vite@latest book-vibe -- --template react
+[change-directory]cd book-vibe
+[react-router]npm install react-router-dom
+--# : npm install localforage match-sorter sort-by
+[run-project]npm run dev
