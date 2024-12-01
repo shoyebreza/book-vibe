@@ -7,18 +7,41 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
---------
-[create-project]# npm create vite@latest book-vibe -- --template react.
+## Installation
 
-[change-directory]# cd book-vibe.
+To get a local copy up and running, follow these simple steps:
 
-[react-router]# npm install react-router-dom.
+1. Clone the repository:
+    ```sh
+   https://github.com/shoyebreza/book-vibe.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd book-vibe
+    ```
+3. Install the dependencies:
+    ```sh
+    npm install react-router-dom
+    ```
+4. Install the dependencies:
+    ```sh
+    npm install localforage match-sorter sort-by
+    ```
+5. Install the tailwind:
+    ```sh
+    npm install -D tailwindcss postcss autoprefixer
+    ```
+6. Initialize the tailwind:
+    ```sh
+    npx tailwindcss init -p
+    ```
 
---# : npm install localforage match-sorter sort-by.
+## Usage
 
-[run-project]# npm run dev.
-[tailwind] # npm install -D tailwindcss postcss autoprefixer .
-[initialize] # npx tailwindcss init -p.
+1. Start the development server:
+    ```sh
+    npm start
+    ```
 
 
 
