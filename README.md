@@ -16,5 +16,9 @@ Currently, two official plugins are available:
 
 --# : npm install localforage match-sorter sort-by.
 
-[run-project]npm run dev.
+[run-project]# npm run dev.
+[tailwind] # npm install -D tailwindcss postcss autoprefixer .
+[initialize] # npx tailwindcss init -p.
+
+
 
