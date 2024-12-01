@@ -35,12 +35,21 @@ To get a local copy up and running, follow these simple steps:
     ```sh
     npx tailwindcss init -p
     ```
-
+7. Install the DaisyUi:
+    ```sh
+    npm i -D daisyui@latest
+    ```
+add plugins:
+```sh
+plugins: [
+    require('daisyui'),
+  ],
+  ``
 ## Usage
 
 1. Start the development server:
     ```sh
-    npm start
+    npm run dev
     ```
 
 
