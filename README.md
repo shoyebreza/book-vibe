@@ -9,7 +9,12 @@ Currently, two official plugins are available:
 
 --------
 [create-project]npm create vite@latest book-vibe -- --template react.
+
 [change-directory]cd book-vibe.
+
 [react-router]npm install react-router-dom.
+
 --# : npm install localforage match-sorter sort-by.
+
 [run-project]npm run dev.
+
