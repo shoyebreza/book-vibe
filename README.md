@@ -44,7 +44,7 @@ add plugins:
 plugins: [
     require('daisyui'),
   ],
-  ``
+  ```
 ## Usage
 
 1. Start the development server:
