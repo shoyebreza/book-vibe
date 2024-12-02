@@ -39,6 +39,10 @@ To get a local copy up and running, follow these simple steps:
     ```sh
     npm i -D daisyui@latest
     ```
+8. Install tostify:
+    ```sh
+    npm i react-toastify
+    ```
 add plugins:
 ```sh
 plugins: [
